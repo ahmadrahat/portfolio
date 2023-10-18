@@ -1,0 +1,58 @@
+.head-font {
+  font-family: 'Raleway', sans-serif;
+}
+.shead-font {
+  font-family: 'Palanquin', sans-serif;
+}
+.paragraph-font {
+  font-family: 'Overpass', sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+img {
+  vertical-align: middle;
+}
+/* --------------------------
+        common css part
+-------------------------- */
+body {
+  background-color: #023436;
+  color: #f4f2f3;
+}
+body #top-bar {
+  z-index: 99;
+  width: 100vw;
+  background: #023436;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body #top-bar .container-fluid {
+  width: 100%;
+}
+body #top-bar .container-fluid .row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+body #top-bar .container-fluid .row .menu ul li {
+  line-height: 65px;
+  padding: 0 35px;
+  float: left;
+}
+body #top-bar .container-fluid .row .menu ul li i {
+  font-size: 20px;
+  cursor: pointer;
+}

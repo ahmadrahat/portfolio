@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+  section.three {
+    padding-top: 35px;
+    padding-bottom: 75px;
+  }
+  section.three .skill-set ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 11.1%;
+  }
+  section.three .skill-set ul .single-skill {
+    min-height: 61px;
+  }
+  section.three .skill-set ul .single-skill .partii {
+    display: none;
+  }
+  section.three .skill-set ul .single-skill .partii h6 {
+    display: none;
+  }
+  section.three .skill-set ul .single-skill .partii .progress {
+    display: none;
+  }
+}
