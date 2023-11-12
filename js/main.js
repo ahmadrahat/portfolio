@@ -23,11 +23,11 @@ if (window.screen.width > 500) {
 //     // return;
 // }
 
-$(window).on('load resize',function(){
-    if($(window).width() < 500){
-        window.location = window.location.origin + '/portfolio/pages/smartPhone/index.html';
-    }
-});
+// $(window).on('load resize',function(){
+//     if($(window).width() < 500){
+//         window.location = window.location.origin + '/portfolio/pages/smartPhone/index.html';
+//     }
+// });
 
 // console.log(window.location.origin);
 
