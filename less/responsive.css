@@ -197,7 +197,7 @@
   }
   section.one .content img {
     width: 26%;
-    border-radius: 50% !important;
+    /* border-radius: 50% !important; */
   }
   section.two {
     padding-top: 10px;

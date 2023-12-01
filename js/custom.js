@@ -23,7 +23,7 @@ $('.dark-icon').on('click', function () {
 });
 
 var typed4 = new Typed('.work-title', {
-    strings: ['I am a Web-Designer', 'I also work with React.js', "I want to learn more ..."],
+    strings: ['I am a Web-Designer', 'I also work with js', "I want to learn more language"],
     typeSpeed: 140,
     backSpeed: 48,
     // attr: 'placeholder',
